@@ -6,6 +6,9 @@
       {{ product.name }}
     </a>
   </h3>
+
+  <!--Se tiver descrição, mostra-->
+  <p *ngIf="product.description">Description: {{ product.description }}</p>
 </div>
 
 <!-- 
