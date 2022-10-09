@@ -11,6 +11,9 @@
   <p *ngIf="product.description">Description: {{ product.description }}</p>
 
   <button type="button" (click)="share()">Share</button>
+
+  <!--Associação de propriedade: passando o produto atual como entrada-->
+  <app-product-alerts [product]="product"> </app-product-alerts>
 </div>
 
 <!-- 
