@@ -1,3 +1,4 @@
-# angular_MyStore
+# ngRoutes_MyStore
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-start-mystore)
+### Angular project from https://angular.io/start
+### Created with StackBlitz zap
